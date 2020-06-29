@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mooc{
+            background: url("mooc.png") center no-repeat;
+            height: 4020px;
+            width: 100%;
+        }
+        .nav{
+            width: 160px;
+            position: fixed;
+            top: 50%;
+            left: 0;
+            margin-top: -125px;
+        }
+        .title-1Dom{
+            text-align: center;
+            height: 50px;
+            font-size: 15px;
+            line-height: 50px;
+            background: gray;
+            border-bottom: 1px solid white;
+            cursor: pointer;
+        }
+        .title-2 li{
+            background: white;
+            color: #040a10;
+            font-size: 12px;
+            height: 35px;
+            width: 160px;
+            line-height: 35px;
+            text-align: center;
+            border-bottom: 1px black dashed;
+        }
+        .title-2 {
+            display: none;
+            position: relative;
+        }
+        .title-1:hover .title-2 {
+            display: block;
+        }
+        .title-3{
+            position: absolute;
+            width: 160px;
+            height: auto;
+            left: 160px;
+            top: 35px;
+            display: none;
+            background: darkgray;
+        }
+        .title-3Dom{
+            width: 160px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 12px;
+            color: white;
+            border-bottom: 1px white solid;
+        }
+        .title-2 li:hover .title-3{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="mooc"></div>
+    <div class="nav">
+        <div class="title-1">
+            <div class="title-1Dom">慕课网的一级标题</div>
+            <ul class="title-2">
+                <li>二级栏目
+                    <div class="title-3">
+                        <div class="title-3Dom">三级栏目1</div>
+                        <div class="title-3Dom">三级栏目1</div>
+                        <div class="title-3Dom">三级栏目1</div>
+                    </div>
+                </li>
+                <li>二级栏目
+                    <div class="title-3">
+                        <div class="title-3Dom">三级栏目2</div>
+                        <div class="title-3Dom">三级栏目2</div>
+                        <div class="title-3Dom">三级栏目2</div>
+                    </div>
+                </li>
+                <li>二级栏目
+                    <div class="title-3">
+                        <div class="title-3Dom">三级栏目3</div>
+                        <div class="title-3Dom">三级栏目3</div>
+                        <div class="title-3Dom">三级栏目3</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="title-1">
+            <div class="title-1Dom">慕课网的一级标题</div>
+            <ul class="title-2">
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+            </ul>
+        </div>
+        <div class="title-1">
+            <div class="title-1Dom">慕课网的一级标题</div>
+            <ul class="title-2">
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+            </ul>
+        </div>
+        <div class="title-1">
+            <div class="title-1Dom">慕课网的一级标题</div>
+            <ul class="title-2">
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+            </ul>
+        </div>
+        <div class="title-1">
+            <div class="title-1Dom">慕课网的一级标题</div>
+            <ul class="title-2">
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+                <li>二级栏目</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
